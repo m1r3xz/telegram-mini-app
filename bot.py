@@ -5,8 +5,8 @@ from telegram.ext import Application, CommandHandler, ContextTypes
 # Replace with your bot token from BotFather
 BOT_TOKEN = "7335268852:AAGCp5SUMHt4jlK2Qu_MSXR3mOqUqKAP2vY"
 
-# Replace with your ngrok URL
-WEBAPP_URL = "https://3c9a-185-107-56-72.ngrok-free.app/index.html"
+# Replace with your GitHub Pages URL
+WEBAPP_URL = "https://m1r3xz.github.io/telegram-mini-app/"
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     """Send a message with a button that opens the web app."""
